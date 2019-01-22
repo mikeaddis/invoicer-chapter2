@@ -212,6 +212,7 @@ func (iv *invoicer) getIndex(w http.ResponseWriter, r *http.Request) {
     </head>
     <body>
 	<h1>Invoicer Web</h1>
+	<h2>Mike Mike Mike Mike</h2
         <p class="desc-invoice"></p>
         <div class="invoice-details">
         </div>
