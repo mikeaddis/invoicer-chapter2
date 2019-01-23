@@ -6,9 +6,6 @@ jobs:
   working_directory: /go/src/github.com/mikeaddis/invoicer-chapter2
   docker:
       - image: circleci/golang:1.11
-    branches:
-      only:
-        - master
     steps:
       - checkout
       - setup_remote_docker
