@@ -213,6 +213,7 @@ func (iv *invoicer) getIndex(w http.ResponseWriter, r *http.Request) {
     </head>
     <body>
 	<h1>Mike's Super Insecure Invoicer web app</h1>
+	<h2>Content Security Policy page 55<h2>
         <p class="desc-invoice"></p>
         <div class="invoice-details">
         </div>
